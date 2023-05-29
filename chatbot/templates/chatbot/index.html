@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html >
+  <head>
+    <meta charset="UTF-8">
+    <title>chat bot</title>
+    
+    {% load static %}
+    <link rel="stylesheet" href="{% static '/chatbot/css/normalize.css' %}">
+  
+
+    <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+      <link rel='stylesheet prefetch' href="{% static '/chatbot/css/jquery.mCustomScrollbar.min.css' %}">
+
+        <link rel="stylesheet" href="{% static '/chatbot/css/style.css' %}">
+      
+
+    
+    
+    
+  </head>
+
+  <body>
+
+
+
+<div class="chat">
+  <img src="{% static 'chatbot/logo.png' %}" alt="">
+
+  <div class="messages">
+    <div class="messages-content"></div>
+  </div>
+  <div class="message-box">
+    <input id="token" type="hidden" value="{{ csrf_token }}" ></input>
+    <textarea type="text" class="message-input" placeholder="Type message..."></textarea>
+    <button type="submit" class="message-submit">Send</button>
+  </div>
+
+</div>
+<div class="bg"></div>
+    <script src="{% static 'chatbot/js/jquery.min.js' %}"></script>
+<script src="{% static 'chatbot/js/jquery.mCustomScrollbar.concat.min.js' %}"></script>
+
+  <script src="{% static 'chatbot/js/index.js' %}"></script>
+
+    
+    
+    
+  </body>
+</html>

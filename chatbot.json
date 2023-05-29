@@ -1,0 +1,63 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "How are you", "Is anyone there?", "Hello", "Good day", "Whats up"],
+         "responses": ["Hello!", "Good to see you!", "Hi there, how can I help?", "Hi, Thank you turning in"]
+         
+        },
+        {"tag": "goodbye",
+         "patterns": ["cya", "See you later", "Goodbye", "I am Leaving", "Have a Good day","bye"],
+         "responses": ["Sad to see you go :(", "Talk to you later", "Goodbye!"]
+        },
+        {"tag": "thanks",
+         "patterns": ["thank you", "thanks for help", "thanks","thank you for help"],
+         "responses": ["you are welcome", "glad i could help", "always a pleasure"]
+        },
+
+        {"tag": "location",
+         "patterns": ["what is the location of the college?", "where is the college located?", "can you tell me the address of college","what is the college address"],
+         "responses": ["It is located at Dillibazar Height, Kathmandu.", "It is in Dillibazar Height, Kathmandu", "Dillibazar Height, Kathmandu"]
+        
+        },
+        {"tag":"time",
+        "patterns":["what is the college timing?","at what time college starts?","when does college starts?"],
+        "responses":["It starts from 11:15 am in the morining for the Day Shift and 6:30 am for morning shift(7th & 8th Semester)","11:15 am in morning","It usually starts at 11.15 am"]
+        },
+        {"tag":"scholarship",
+        "patterns":["what is the chance of getting scholarship?","who can get scholarship?","can we get scholarships?","how to get scholarships"],
+        "responses":[" Students securing highest marks in semester exams is awarded with semester scholarship whereas there is no entrance based scholarship available in college"],                                                                                   
+        "context_set":""
+        },
+         {"tag": "contact",
+         "patterns": ["what is the phone number of college?", "how can i contact college?","what is the contact number of college"],
+         "responses": ["give us a call 01-4445955, 01-4445956", "call at 01-4445955, 01-4445956"],
+        "context_set": ""
+        },
+        {"tag": "eligible",
+         "patterns": ["what is the procedure for admission", "what are the documents for admission","how can i get admission"],
+         "responses": ["Students who have passed the entrance exam conducted by the Institute of Science and Technology (IoST), T.U., can only apply for admission at Trinity International College. Students are selected strictly on a merit basis from amongst the applicants.To be eligible to appear in the IoST entrance exam, one must have secured a minimum of 45 % marks in +2 Science or A Level or Diploma in Engineering or equivalent with Physics and Mathematics. One who has appeared in the final examination of +2 Science or equivalent can also apply."],
+        "context_set": ""
+        },
+        {"tag":"benefit",
+         "patterns": ["what are the advantages of studying in this college?","why should i choose this college?","how can student take benefit from this college?","what are the benefits of studying?"],
+         "responses":["Training & placement unit, well equipped Laboratories,Regular field visits,Students counselling,Research & development unit,Library,Internet connectivity,Sports"],
+         "context_set":""
+        },
+        {
+         "tag":"dress",
+         "patterns":["do you have any uniform for students?","do you have any dress code?","is uniform necessary?","do we need dress?"],
+         "responses":["Yes, we have formal dress code","We have formal college dress code"],
+         "context_set":""
+        },
+        {"tag":"extra",
+        "patterns":["do you provide extra training beside curriculum?","can student get other training?","do you teach other than college curriculum?"],
+        "responses":["Yes, we provide different training programs as per the requirement of students"],
+        "context_set":""
+        },
+        {
+        "tag":"fee",
+        "patterns":["what is the total fee of the college?","what is the cost for college?","how much fee should we pay?"],
+        "responses":["It's Rs 8,50,000 for BSc.CSIT, 6,00,000 for BCA, 5,00,000 for BBM, 4,00,000 for BBS"],
+        "context_set":""
+        }        
+   ]
+}
